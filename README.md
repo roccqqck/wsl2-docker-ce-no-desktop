@@ -11,7 +11,7 @@
 
 3. copy ```daemon.json``` to ```/etc/docker/```
 
-4. replace ```docker.service``` with ```/lib/systemd/system/docker.service```
+4. replace ```/lib/systemd/system/docker.service``` with ```docker.service```
 
 5. start docker
 ```
