@@ -1,0 +1,13 @@
+{
+    "features": {
+        "buildkit": true
+    },
+    "hosts": [
+        "tcp://127.0.0.1:2375",
+        "unix:///var/run/docker.sock"
+    ],
+    "log-opts": {
+        "max-size": "100m",
+        "max-file": "1"
+    }
+}
