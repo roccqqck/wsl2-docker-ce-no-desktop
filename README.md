@@ -1,6 +1,6 @@
 # wsl2-docker-ce-no-desktop
 
-## install and run
+## install docker-ce without docker desktop and run
 1. install wsl2 ubuntu20.04
 
 2. install docker-ce in wsl2
@@ -34,10 +34,12 @@ sudo nohup dockerd &
 
 7. add win10 env variable PATH ```C:\\Users\username\programs\docker\```
 
-   check docker command
+   check docker command in Powershell
 ```
 docker ps
 ```
-
+```
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES     SIZE
+```
 7.  vscode ```setting.json``` add one line ```{"docker.host": "tcp://127.0.0.1:2375"}```
 
