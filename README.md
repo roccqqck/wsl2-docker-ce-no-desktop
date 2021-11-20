@@ -41,5 +41,9 @@ docker ps
 ```
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES     SIZE
 ```
+```
+docker run -itd -p 8080:80 --name nginx nginx:stable
+```
 7.  vscode ```setting.json``` add one line ```{"docker.host": "tcp://127.0.0.1:2375"}```
+8.  vscode -> Remote Explorer -> Containers -> click ```nginx:stable```
 
